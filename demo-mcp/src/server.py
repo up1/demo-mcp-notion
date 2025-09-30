@@ -92,7 +92,7 @@ async def read_text_file(file_path: str) -> FileContent:
         )
     
     except Exception as e:
-        logger.error(f"Error reading text file {file_path}: {str(e)}")
+        logger.error("Error reading text file %s: %s", file_path, str(e))
         raise
 
 
@@ -118,7 +118,7 @@ async def read_json_file(file_path: str) -> FileContent:
         try:
             content = json.loads(content_str)
         except json.JSONDecodeError as e:
-            raise ValueError(f"Invalid JSON format: {str(e)}")
+            raise ValueError("Invalid JSON format: %s" % str(e)) from e
         
         return FileContent(
             filename=path.name,
@@ -129,7 +129,7 @@ async def read_json_file(file_path: str) -> FileContent:
         )
     
     except Exception as e:
-        logger.error(f"Error reading JSON file {file_path}: {str(e)}")
+        logger.error("Error reading JSON file %s: %s", file_path, str(e))
         raise
 
 
@@ -169,7 +169,7 @@ async def read_csv_file(file_path: str, delimiter: str = ",", max_rows: Optional
         )
     
     except Exception as e:
-        logger.error(f"Error reading CSV file {file_path}: {str(e)}")
+        logger.error("Error reading CSV file %s: %s", file_path, str(e))
         raise
 
 
@@ -206,7 +206,7 @@ async def list_files_in_directory(directory_path: str, file_extensions: Optional
         }
     
     except Exception as e:
-        logger.error(f"Error listing files in directory {directory_path}: {str(e)}")
+        logger.error("Error listing files in directory %s: %s", directory_path, str(e))
         raise
 
 
@@ -283,7 +283,7 @@ async def create_notion_page(database_id: str, title: str, content: Optional[str
         }
     
     except Exception as e:
-        logger.error(f"Error creating Notion page: {str(e)}")
+        logger.error("Error creating Notion page: %s", str(e))
         raise
 
 
@@ -349,7 +349,7 @@ async def create_notion_page_from_file(database_id: str, file_path: str, page_ti
         }
     
     except Exception as e:
-        logger.error(f"Error creating Notion page from file {file_path}: {str(e)}")
+        logger.error("Error creating Notion page from file %s: %s", file_path, str(e))
         raise
 
 
@@ -384,7 +384,7 @@ async def get_notion_databases() -> List[Dict[str, Any]]:
         return databases
     
     except Exception as e:
-        logger.error(f"Error fetching Notion databases: {str(e)}")
+        logger.error("Error fetching Notion databases: %s", str(e))
         raise
 
 
