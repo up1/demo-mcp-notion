@@ -1,0 +1,6 @@
+fastmcp
+notion-client
+python-dotenv
+pandas
+aiofiles
+pydantic

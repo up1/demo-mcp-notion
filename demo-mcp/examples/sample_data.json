@@ -1,0 +1,52 @@
+{
+  "project": {
+    "name": "MCP File Reader Demo",
+    "version": "1.0.0",
+    "description": "Sample project data for demonstrating file reading capabilities"
+  },
+  "team": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "role": "Project Manager",
+      "email": "alice@example.com",
+      "skills": ["Management", "Communication", "Planning"]
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "role": "Developer",
+      "email": "bob@example.com",
+      "skills": ["Python", "JavaScript", "React"]
+    },
+    {
+      "id": 3,
+      "name": "Carol Davis",
+      "role": "Designer",
+      "email": "carol@example.com",
+      "skills": ["UI/UX", "Figma", "Adobe Creative Suite"]
+    }
+  ],
+  "milestones": [
+    {
+      "name": "Project Kickoff",
+      "date": "2024-01-15",
+      "status": "completed"
+    },
+    {
+      "name": "MVP Development",
+      "date": "2024-03-01",
+      "status": "in-progress"
+    },
+    {
+      "name": "Beta Release",
+      "date": "2024-04-15",
+      "status": "planned"
+    }
+  ],
+  "metadata": {
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-30T12:30:00Z",
+    "tags": ["demo", "mcp", "file-reading", "notion"]
+  }
+}

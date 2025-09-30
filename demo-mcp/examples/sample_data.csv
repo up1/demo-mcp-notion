@@ -1,0 +1,11 @@
+name,age,department,salary,start_date,skills
+John Doe,28,Engineering,75000,2022-01-15,"Python,JavaScript,SQL"
+Jane Smith,32,Marketing,65000,2021-06-01,"SEO,Content Marketing,Analytics"
+Mike Johnson,35,Engineering,82000,2020-03-10,"Java,Spring,Docker"
+Sarah Wilson,29,Design,58000,2022-08-20,"UI/UX,Figma,Sketch"
+Chris Brown,31,Sales,70000,2021-11-05,"CRM,Negotiation,Lead Generation"
+Lisa Anderson,27,Engineering,71000,2023-02-12,"React,Node.js,MongoDB"
+David Lee,33,Product,78000,2021-04-18,"Product Management,Agile,Analytics"
+Emily Davis,26,Marketing,52000,2023-05-08,"Social Media,Branding,Copywriting"
+Ryan Martinez,30,Engineering,76000,2022-07-25,"DevOps,Kubernetes,AWS"
+Ashley Taylor,34,HR,61000,2020-09-14,"Recruitment,Employee Relations,HRIS"

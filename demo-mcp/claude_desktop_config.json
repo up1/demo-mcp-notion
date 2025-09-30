@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "file-notion-mcp": {
+      "command": "python",
+      "args": ["/Users/somkiatpuisungnoen/data/slide/AI/workshop-mcp/demo-mcp/src/server.py"],
+      "env": {
+        "NOTION_API_KEY": "NOTION_API_KEY"
+      }
+    }
+  }
+}
